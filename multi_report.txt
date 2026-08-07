@@ -598,7 +598,7 @@ SeekErrorsWarn=5		# Number of seek errors to allow when a WARNING message will b
 SeekErrorsCrit=100		# Number of seek errors to allow when a CRITICAL message will be used.
 NVM_Media_Errors=1		# Number of Media Errors to alarm with a CRITICAL message.
 WearLevelCrit=9			# Wear Level Alarm Set point when a WARNING message. 9% is the default.
-TestWarnAge=2			# Maximum age (in days) of last SMART test before CRITICAL color/message will be used.
+TestWarnAge=2			# Maximum age (in days) of last SMART test before WARNING color/message will be used.
 
 ### NVMe Low Power / Invalid Errors
 NVM_Low_Power="enable"    				# Set the NVMe power level to the minimum setting. This does not mean the NVMe will remain at this power level. Only works in CORE.
