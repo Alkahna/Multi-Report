@@ -9247,7 +9247,7 @@ if [[ $Debug_Steps == "true" ]]; then echo "update_config_file" | tee -a /tmp/mu
 		echo "SeekErrorsCrit=$SeekErrorsCrit	# Number of seek errors to allow before CRITICAL color/message will be used."
 		echo "NVM_Media_Errors=$NVM_Media_Errors	# Number of NVM Media Errors will cause a CRITICAL alarm.  Default is 1."
 		echo "WearLevelCrit=$WearLevelCrit		# Wear Level Alarm Setpoint for WARNING message, 9% is the default."
-		echo "TestWarnAge=$TestWarnAge		# Maximum age (in days) of last SMART test before CRITICAL color/message will be used."
+		echo "TestWarnAge=$TestWarnAge		# Maximum age (in days) of last SMART test before WARNING color/message will be used."
 		echo " "
 		echo "### NVMe Low Power / Invalid Errors"
 		echo 'NVM_Low_Power="'$NVM_Low_Power'"					# Set the NVMe power level to the minimum setting. This does not mean the NVMe will remain at this power level.'
